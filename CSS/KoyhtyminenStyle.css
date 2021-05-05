@@ -1,3 +1,14 @@
 .Container{
-  width: 70%;
+  width: 65%;
+}
+
+
+.Title{
+  width: 100%;
+  padding: 10px;
+}
+
+.Article{
+  width: 100%;
+  padding: 10px;
 }
