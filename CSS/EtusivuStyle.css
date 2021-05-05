@@ -1,0 +1,27 @@
+.Container{
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 35px;
+  width: 35%;
+  height: 520px;
+  background-color: #a7eba7;
+}
+.Container1{
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 35px;
+  width: 50%;
+  height: 520px;
+  position: relative;
+}
+
+#article1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#article2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

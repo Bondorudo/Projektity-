@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+}
+
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 701px){
+  header{
+    font-size: 40px;
+  }
+  .MainBody{
+    font-size: 18px;
+  }
+  .Topnav a{
+    font-size: 17px;
+  }
+  footer{
+    font-size: 14px;
+  }
+  #footerText_1{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  header{
+    font-size: 25px;
+  }
+  .MainBody{
+    font-size: 15px;
+  }
+  .Topnav a{
+    font-size: 14px;
+  }
+  footer{
+    font-size: 12px;
+  }
+  #footerText_1{
+    font-size: 18px;
+  }
+  .Container1{
+    float: none;
+    margin-right: 0;
+    width: auto;
+    border: 0;
+  }
+}
+
+header{
+  margin: auto;
+  padding: 2% 10px;
+  width: 70%;
+  text-align: center;
+  font-family: monospace;
+  color: #205b24;
+  background-color: #72e579;
+}
+
+.Topnav{
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70%;
+  overflow: hidden;
+  background-color: #303830;
+}
+
+.Topnav a{
+  float: left;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #e0f1e0;
+}
+
+.Topnav a:hover{
+  border-radius: 10px;
+  color: black;
+  background-color: #ace9b0;
+}
+
+.Topnav a.active{
+  border-radius: 10px;
+  color: white;
+  background-color: #4f9953;
+}
+
+p {
+  margin: auto;
+  padding: 15px;
+}
+
+.subHeader{
+  margin: 10px;
+}
+
+.MainBody{
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  height: auto;
+  min-height: 350px;
+  overflow: hidden;
+  font-family: monospace;
+  color: black;
+  background-color: #e0f1e0;
+}
+
+.Container{
+  float: left;
+  display: block;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  min-height: 200px;
+}
+
+.Container1{
+  display: block;
+  margin: 5%;
+  width: 100%;
+  min-height: 200px;
+}
+
+.Title{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 96%;
+  text-align: center;
+  color: black;
+  background-color: #a7eba7;
+}
+.Article{
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  color: black;
+  background-color: #a7eba7;
+}
+
+.FooterContainer{
+  float: left;
+  margin-right: 6%;
+  width: 25%;
+  min-height: 80px;
+}
+
+#footerText_1{
+  padding: 25px;
+}
+
+footer{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  overflow: hidden;
+  font-family: monospace;
+  color: #e0f1e0;
+  background-color: #303830;
+}

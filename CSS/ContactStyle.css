@@ -1,0 +1,56 @@
+textarea{
+  resize: none;
+}
+
+.Title{
+  padding: 10px 30px 10px 30px;
+  margin: 3% 3% 20px;
+  width: 50%;
+}
+
+.Container{
+  padding: 30px;
+  margin-left: 3%;
+  margin-top: 0%;
+  width: 50%;
+  background-color: #b3ccb3;
+}
+
+input[type=text], select {
+  padding: 12px 10px;
+  margin: 8px 0;
+  width: 100%;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  display: inline-block;
+  padding: 12px 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  font-size: 15px;
+  background-color: #4CAF50;
+  color: #e0f1e0;
+  padding: 2% 5%;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4f9953;
+}
+
+textarea {
+  max-width: 100%;
+}
