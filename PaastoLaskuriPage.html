@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kestävä kehitys</title>
+    <link rel="stylesheet" href="CSS/MainStyle.css">
+    <link rel="stylesheet" href="CSS/PaastoStyle.css">
+    <img src="graphics/Metsa.jpg" id="bg">
+  </head>
+  <body>
+    <header>
+      <h2>Kestävä kehitys</h2>
+    </header>
+    <body>
+      <div class="Topnav">
+        <a href="EtusivuPage.html">Etusivu</a>
+        <a href="MaaritteluPage.html">Kestävän kehityksen määrittely</a>
+        <a href="KoyhtyminenPage.html">Luonnon köyhtyminen</a>
+        <a class="active" href="PaastolaskuriPage.html">Päästölaskuri</a>
+        <a href="ContactPage.html">Contact Us</a>
+      </div>
+      <div class="MainBody">
+        <div class="Container">
+          <article class="Title">
+            <h3>Päästölaskuri</h3>
+          </article>
+          <article class="Article">
+            <p>Kuinka paljon polttoainetta käytät päivittäin? (l)</p>
+            <input id="inputId" type="text" name="polttoaineMaara" value="">
+            <input type="button" class="resultButton" value="Check" onclick="myFunction()"></input>
+            <p id="palaute"></p>
+          </article>
+        </div>
+      </div>
+      <script src="JavaScript/PaastoScript.js"></script>
+    </body>
+    <footer>
+      <div class="FooterContainer">
+        <p id="footerText_1">
+          Kestävä Kehitys</p>
+      </div>
+      <div class="FooterContainer">
+        <p id="footerText_2">
+          kaakkovuorentie 2 as 1<br>
+            40320 JYVÄSKYLÄ<br>
+      </div>
+      <div class="FooterContainerRight">
+        <p id="footerText_2">
+          thomas.aaltonen@hotmail.com<br>
+            040 1379827<br>
+      </div>
+    </footer>
+  </body>
+</html>

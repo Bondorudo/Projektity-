@@ -2,17 +2,38 @@ textarea{
   resize: none;
 }
 
-.Title{
-  padding: 10px 30px 10px 30px;
-  margin: 3% 3% 20px;
-  width: 50%;
+@media screen and (min-width: 951px){
+  .Title{
+    padding: 10px 30px 10px 30px;
+    margin: 3% 3% 20px;
+    width: 50%;
+  }
+  .Container{
+    padding: 30px;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .Title{
+    padding: 10px 30px 10px 30px;
+    width: 90%;
+  }
+  .Container{
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 90%;
+  }
+  .FooterContainer{
+    float: none;
+    margin-right: 0px
+  }
 }
 
 .Container{
-  padding: 30px;
-  margin-left: 3%;
-  margin-top: 0%;
-  width: 50%;
   background-color: #b3ccb3;
 }
 
