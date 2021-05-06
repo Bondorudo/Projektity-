@@ -70,8 +70,6 @@
     $palaute = $_POST["palaute"];
 
     echo '<script>alert("Viesti lähetetty")</script>';
-    //mail($sPosti, $etunimi . " " . $sukunimi, $palaute);
+    mail($sPosti, $etunimi . " " . $sukunimi, $palaute);
   }
-    //echo json_encode($data);
-
  ?>

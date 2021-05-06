@@ -56,7 +56,7 @@ header{
   text-align: center;
   font-family: monospace;
   color: #205b24;
-  background-color: #72e579;
+  background-color: #70e771;
 }
 
 .Topnav{
@@ -84,8 +84,8 @@ header{
 
 .Topnav a.active{
   border-radius: 10px;
-  color: white;
-  background-color: #4f9953;
+  color: #e0f1e0;
+  background-color: #45ab46;
 }
 
 p {
