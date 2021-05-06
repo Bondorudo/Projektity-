@@ -42,24 +42,29 @@
   $errors = [];
   $data = [];
 
+  // Jos etunimi on tyhjä lisää errors taulukkoon etunimi
   if (empty($_POST["etunimi"])){
     $errors["etunimi"] = "Etunimi puuttuu";
   }
 
+  // Jos sukunimi on tyhjä lisää errors taulukkoon sukunimi
   if (empty($_POST["sukunimi"])){
     $errors["sukunimi"] = "Sukunimi puuttuu";
   }
 
+  // Jos sähköposti on tyhjä lisää errors taulukkoon sähköposti
   if (empty($_POST["sPosti"])){
     $errors["sPosti"] = "Sähköposti puuttuu";
   }
 
+  // Jos errors taulu ei ole tyhjä eli siellä on jotain palauta
   if (!empty($errors)){
     $data["success"] = false;
     $data["errors"] = $errors;
 
     echo '<script>alert("Viestiä ei lähetetty")</script>';
   }
+  // Jos error taulussa ei ole mitään eli se on tyhjä palauta
   else{
     $data["success"] = true;
     $data["message"] = "success!";
@@ -69,6 +74,7 @@
     $sPosti = $_POST["sPosti"];
     $palaute = $_POST["palaute"];
 
+    // Ilmoita että viesti on lähetetty ja lähetä sähköposti
     echo '<script>alert("Viesti lähetetty")</script>';
     mail($sPosti, $etunimi . " " . $sukunimi, $palaute);
   }
